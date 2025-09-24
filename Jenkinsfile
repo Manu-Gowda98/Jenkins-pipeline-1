@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building the project..."
+                echo "Jenkins-Building the project..."
                 sh 'sleep 2'
             }
         }
